@@ -1,16 +1,13 @@
+import React from "react";
+import Layout from "../components/layout/Layout";
+import Navbar from "../components/navbar/Navbar";
 
-import React from 'react' 
-import Layout from '../components/layout/Layout'
-
-
-function about(){
+function about() {
   return (
-<Layout> 
-<Navbar />
-<h1>about</h1>
-
-</Layout>
-
-  )
+    <Layout>
+      <Navbar />
+      <h1>about</h1>
+    </Layout>
+  );
 }
-export default about 
+export default about;
